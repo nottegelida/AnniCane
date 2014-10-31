@@ -13,6 +13,9 @@
 		F16236AC1A03BEF000835EBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16236AB1A03BEF000835EBE /* Images.xcassets */; };
 		F16236AF1A03BEF000835EBE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16236AD1A03BEF000835EBE /* LaunchScreen.xib */; };
 		F16236BB1A03BEF000835EBE /* AnniCaneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16236BA1A03BEF000835EBE /* AnniCaneTests.swift */; };
+		F16236C71A03BF5500835EBE /* canegiovane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F16236C41A03BF5500835EBE /* canegiovane.jpg */; };
+		F16236C81A03BF5500835EBE /* canematuro.png in Resources */ = {isa = PBXBuildFile; fileRef = F16236C51A03BF5500835EBE /* canematuro.png */; };
+		F16236C91A03BF5500835EBE /* canevecchio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F16236C61A03BF5500835EBE /* canevecchio.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		F16236B41A03BEF000835EBE /* AnniCaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnniCaneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F16236B91A03BEF000835EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F16236BA1A03BEF000835EBE /* AnniCaneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniCaneTests.swift; sourceTree = "<group>"; };
+		F16236C41A03BF5500835EBE /* canegiovane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = canegiovane.jpg; sourceTree = "<group>"; };
+		F16236C51A03BF5500835EBE /* canematuro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = canematuro.png; sourceTree = "<group>"; };
+		F16236C61A03BF5500835EBE /* canevecchio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = canevecchio.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +96,9 @@
 		F16236A21A03BEF000835EBE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F16236C41A03BF5500835EBE /* canegiovane.jpg */,
+				F16236C51A03BF5500835EBE /* canematuro.png */,
+				F16236C61A03BF5500835EBE /* canevecchio.jpg */,
 				F16236A31A03BEF000835EBE /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,7 +203,10 @@
 			files = (
 				F16236AA1A03BEF000835EBE /* Main.storyboard in Resources */,
 				F16236AF1A03BEF000835EBE /* LaunchScreen.xib in Resources */,
+				F16236C91A03BF5500835EBE /* canevecchio.jpg in Resources */,
+				F16236C71A03BF5500835EBE /* canegiovane.jpg in Resources */,
 				F16236AC1A03BEF000835EBE /* Images.xcassets in Resources */,
+				F16236C81A03BF5500835EBE /* canematuro.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
