@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F16236A51A03BEF000835EBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16236A41A03BEF000835EBE /* AppDelegate.swift */; };
+		F16236A71A03BEF000835EBE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16236A61A03BEF000835EBE /* ViewController.swift */; };
+		F16236AA1A03BEF000835EBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F16236A81A03BEF000835EBE /* Main.storyboard */; };
+		F16236AC1A03BEF000835EBE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F16236AB1A03BEF000835EBE /* Images.xcassets */; };
+		F16236AF1A03BEF000835EBE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F16236AD1A03BEF000835EBE /* LaunchScreen.xib */; };
+		F16236BB1A03BEF000835EBE /* AnniCaneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F16236BA1A03BEF000835EBE /* AnniCaneTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F16236B51A03BEF000835EBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F16236971A03BEF000835EBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F162369E1A03BEF000835EBE;
+			remoteInfo = AnniCane;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F162369F1A03BEF000835EBE /* AnniCane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnniCane.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16236A31A03BEF000835EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16236A41A03BEF000835EBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F16236A61A03BEF000835EBE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F16236A91A03BEF000835EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F16236AB1A03BEF000835EBE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F16236AE1A03BEF000835EBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F16236B41A03BEF000835EBE /* AnniCaneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnniCaneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F16236B91A03BEF000835EBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F16236BA1A03BEF000835EBE /* AnniCaneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnniCaneTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F162369C1A03BEF000835EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16236B11A03BEF000835EBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F16236961A03BEF000835EBE = {
+			isa = PBXGroup;
+			children = (
+				F16236A11A03BEF000835EBE /* AnniCane */,
+				F16236B71A03BEF000835EBE /* AnniCaneTests */,
+				F16236A01A03BEF000835EBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F16236A01A03BEF000835EBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F162369F1A03BEF000835EBE /* AnniCane.app */,
+				F16236B41A03BEF000835EBE /* AnniCaneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F16236A11A03BEF000835EBE /* AnniCane */ = {
+			isa = PBXGroup;
+			children = (
+				F16236A41A03BEF000835EBE /* AppDelegate.swift */,
+				F16236A61A03BEF000835EBE /* ViewController.swift */,
+				F16236A81A03BEF000835EBE /* Main.storyboard */,
+				F16236AB1A03BEF000835EBE /* Images.xcassets */,
+				F16236AD1A03BEF000835EBE /* LaunchScreen.xib */,
+				F16236A21A03BEF000835EBE /* Supporting Files */,
+			);
+			path = AnniCane;
+			sourceTree = "<group>";
+		};
+		F16236A21A03BEF000835EBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F16236A31A03BEF000835EBE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F16236B71A03BEF000835EBE /* AnniCaneTests */ = {
+			isa = PBXGroup;
+			children = (
+				F16236BA1A03BEF000835EBE /* AnniCaneTests.swift */,
+				F16236B81A03BEF000835EBE /* Supporting Files */,
+			);
+			path = AnniCaneTests;
+			sourceTree = "<group>";
+		};
+		F16236B81A03BEF000835EBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F16236B91A03BEF000835EBE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F162369E1A03BEF000835EBE /* AnniCane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16236BE1A03BEF000835EBE /* Build configuration list for PBXNativeTarget "AnniCane" */;
+			buildPhases = (
+				F162369B1A03BEF000835EBE /* Sources */,
+				F162369C1A03BEF000835EBE /* Frameworks */,
+				F162369D1A03BEF000835EBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnniCane;
+			productName = AnniCane;
+			productReference = F162369F1A03BEF000835EBE /* AnniCane.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F16236B31A03BEF000835EBE /* AnniCaneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F16236C11A03BEF000835EBE /* Build configuration list for PBXNativeTarget "AnniCaneTests" */;
+			buildPhases = (
+				F16236B01A03BEF000835EBE /* Sources */,
+				F16236B11A03BEF000835EBE /* Frameworks */,
+				F16236B21A03BEF000835EBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F16236B61A03BEF000835EBE /* PBXTargetDependency */,
+			);
+			name = AnniCaneTests;
+			productName = AnniCaneTests;
+			productReference = F16236B41A03BEF000835EBE /* AnniCaneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F16236971A03BEF000835EBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Mac-Diego";
+				TargetAttributes = {
+					F162369E1A03BEF000835EBE = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F16236B31A03BEF000835EBE = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F162369E1A03BEF000835EBE;
+					};
+				};
+			};
+			buildConfigurationList = F162369A1A03BEF000835EBE /* Build configuration list for PBXProject "AnniCane" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F16236961A03BEF000835EBE;
+			productRefGroup = F16236A01A03BEF000835EBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F162369E1A03BEF000835EBE /* AnniCane */,
+				F16236B31A03BEF000835EBE /* AnniCaneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F162369D1A03BEF000835EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16236AA1A03BEF000835EBE /* Main.storyboard in Resources */,
+				F16236AF1A03BEF000835EBE /* LaunchScreen.xib in Resources */,
+				F16236AC1A03BEF000835EBE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16236B21A03BEF000835EBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F162369B1A03BEF000835EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16236A71A03BEF000835EBE /* ViewController.swift in Sources */,
+				F16236A51A03BEF000835EBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16236B01A03BEF000835EBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F16236BB1A03BEF000835EBE /* AnniCaneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F16236B61A03BEF000835EBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F162369E1A03BEF000835EBE /* AnniCane */;
+			targetProxy = F16236B51A03BEF000835EBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F16236A81A03BEF000835EBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16236A91A03BEF000835EBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F16236AD1A03BEF000835EBE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F16236AE1A03BEF000835EBE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F16236BC1A03BEF000835EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F16236BD1A03BEF000835EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F16236BF1A03BEF000835EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnniCane/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F16236C01A03BEF000835EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AnniCane/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F16236C21A03BEF000835EBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnniCaneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnniCane.app/AnniCane";
+			};
+			name = Debug;
+		};
+		F16236C31A03BEF000835EBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnniCaneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnniCane.app/AnniCane";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F162369A1A03BEF000835EBE /* Build configuration list for PBXProject "AnniCane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16236BC1A03BEF000835EBE /* Debug */,
+				F16236BD1A03BEF000835EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F16236BE1A03BEF000835EBE /* Build configuration list for PBXNativeTarget "AnniCane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16236BF1A03BEF000835EBE /* Debug */,
+				F16236C01A03BEF000835EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F16236C11A03BEF000835EBE /* Build configuration list for PBXNativeTarget "AnniCaneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F16236C21A03BEF000835EBE /* Debug */,
+				F16236C31A03BEF000835EBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F16236971A03BEF000835EBE /* Project object */;
+}
